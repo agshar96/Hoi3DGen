@@ -6,3 +6,7 @@
 	path = external/external/Grounded-SAM-2
 	url = https://github.com/agshar96/Grounded-SAM-2.git
 	branch = Hoi3DGen
+[submodule "external/Grounded-SAM-2"]
+	path = external/Grounded-SAM-2
+	url = https://github.com/agshar96/Grounded-SAM-2.git
+	branch = Hoi3DGen
