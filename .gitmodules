@@ -1,0 +1,4 @@
+[submodule "external/Sana"]
+	path = external/Sana
+	url = https://github.com/agshar96/Sana.git
+	branch = Hoi3DGen
