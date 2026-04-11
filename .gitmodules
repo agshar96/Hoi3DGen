@@ -2,3 +2,7 @@
 	path = external/Sana
 	url = https://github.com/agshar96/Sana.git
 	branch = Hoi3DGen
+[submodule "external/external/Grounded-SAM-2"]
+	path = external/external/Grounded-SAM-2
+	url = https://github.com/agshar96/Grounded-SAM-2.git
+	branch = Hoi3DGen
