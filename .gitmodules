@@ -18,3 +18,6 @@
 	path = external/HunYuan3D-2.1
 	url = https://github.com/agshar96/Hunyuan3D-2.1.git
 	branch = Hoi3DGen
+[submodule "external/CameraHMR"]
+	path = external/CameraHMR
+	url = https://github.com/agshar96/CameraHMR
