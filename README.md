@@ -12,14 +12,25 @@ This is the official repository for **Hoi3DGen.**
 ## 🚀 News
 - **[March 2026]** Our paper has been submitted to arXiv!
 - **[Feb 2026]** Hoi3DGen has been accepted to CVPR Findings Track!
-- **[Coming Soon]** We will release the full code, pre-trained models, and the annotated ProciGen Dataset.
-- **⭐ Star us** to get notified when the code is released!
+- **[Coming Soon]** We will release the annotated ProciGen Dataset.
+- **⭐ Star us** to get notified when new updates are released!
 
-
-## 📦 Content to be Released
-- [ ] **Core Code**: Training and inference pipeline.
-- [ ] **Model Weights**: Pre-trained checkpoints for Hoi3DGen.
+## ✅ TO DO
+- [x] **Inference Code**: Inference pipeline for Hoi3DGen.
+- [x] **Model Weights**: Pre-trained checkpoints for Hoi3DGen.
 - [ ] **Annotated Dataset**: Complete list of text annotations for human object interactions from ProciGen dataset.
+
+## 🛠️ Installation
+
+Instructions to set up the required Conda environments are available in [`Install.md`](Install.md).
+
+## 📥 Pre-trained Weights
+
+The pre-trained Hoi3DGen weights can be downloaded from Hugging Face:
+
+```bash
+hf download agshar96/hoi3dgen_weights epoch_1050_step_25201.pth --local-dir weights/
+```
 
 ## 📄 Abstract
 Modeling and generating 3D human–object interactions from text is crucial for applications in AR, XR, and gaming. Existing approaches often rely on score distillation from text-to-image models, but their results suffer from the Janus problem and do not follow text prompts faithfully due to the scarcity of high-quality interaction data. We introduce **Hoi3DGen**, a framework that generates high-quality textured meshes of human-object interaction that follow the input interaction descriptions precisely. 
