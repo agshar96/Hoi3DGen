@@ -27,6 +27,26 @@ hf download agshar96/hoi3dgen_weights epoch_1050_step_25201.pth --local-dir weig
 
 ---
 
+## ▶️ Running the Code
+
+### Text-to-3D Generation
+
+Run the full text-to-3D generation pipeline with:
+
+```bash
+./run_t23d_pipe.sh --all
+```
+
+### Segmentation
+
+Run the full segmentation pipeline with:
+
+```bash
+./run_segmentation_pipe.sh --all
+```
+
+---
+
 ## 🚀 News
 - **[March 2026]** Our paper has been submitted to arXiv!
 - **[Feb 2026]** Hoi3DGen has been accepted to CVPR Findings Track!
